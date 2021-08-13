@@ -1,0 +1,6 @@
+framework module SZDXSDK {
+  umbrella header "SZDXSDK.h"
+
+  export *
+  module * { export * }
+}
