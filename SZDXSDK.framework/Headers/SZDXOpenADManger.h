@@ -55,20 +55,19 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (SZDXOpenADManger *)shareAdManager;
 
-
 /** 代理**/
 @property (nonatomic, weak) id<SZDXOpenAdDelegate> delegate;
 /**
- * slotId:平台对应的广告位ID
- * platform：平台
+ * slotId:广告位ID
  */
-+ (void)szdxinitDataSplashAdSlotId:(NSString *)slotId PlatformName:(SZDXPlatformName)platform;
++ (void)szdxinitDataSplashAdSlotId:(NSString *)slotId;
 
 + (void)szdxSplashAdWithDelegate:(nullable id)delegate;
-
-+ (void)loadAdData;
-
+/**拉取广告物料数据*/
++ (BOOL)loadAdData;
+/**显示广告*/
 + (void)render;
+
 
 @end
 

@@ -20,9 +20,7 @@ FOUNDATION_EXPORT const unsigned char SZDXSDKVersionString[];
 #import <SZDXSDK/SZDXOpenADManger.h>
 #import <SZDXSDK/SZDXManager.h>
 #import <SZDXSDK/SZDXSDKDefines.h>
-#import <SZDXSDK/SZDXBUOpenADManger.h>
 #import <SZDXSDK/SZDXNativeAdView.h>
 #import <SZDXSDK/SZDXNativeAdManger.h>
-#import <SZDXSDK/SZDXTestViewController.h>
 #import <SZDXSDK/SZDXRewardVideoAd.h>
-
+#import <SZDXSDK/SZDXBannerAdView.h>

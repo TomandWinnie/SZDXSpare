@@ -6,7 +6,8 @@
 // 激烈视频广告
 
 #import <UIKit/UIKit.h>
-
+#import <SZDXSDK/SZDXSDKDefines.h>
+#import <SZDXSDK/SZDXServiceVerificationOptions.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol SZDXRewardVideoAdViewDelegate <NSObject>
@@ -37,16 +38,20 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SZDXRewardVideoAd : NSObject
 
-///广告位ID
-@property (nonatomic ,copy) NSString *slotId;
-
 @property (nonatomic ,weak) id<SZDXRewardVideoAdViewDelegate> delegate;
+
+
+/// 初始化
+/// @param slotId 广告位ID
+- (instancetype)initWithRewardVideoAdSlotId:(NSString *)slotId;
+
+
+@property (nonatomic ,strong) SZDXServiceVerificationOptions *serverSideVerificationOptions;
 
 /*
  拉取广告数据
  */
 - (void)loadAdData;
-
 /**
  展示广告方法
  @param rootViewController 用于 present 激励视频 VC

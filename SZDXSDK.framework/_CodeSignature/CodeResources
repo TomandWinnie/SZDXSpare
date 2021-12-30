@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/SZDXADStreamCell.h</key>
 		<data>
-		+hiNQUizp/lNgIdXeEPxHGrhnFM=
+		u2B431tx3BI4xnddLMamHOQyQkQ=
 		</data>
-		<key>Headers/SZDXBUOpenADManger.h</key>
+		<key>Headers/SZDXBannerAdView.h</key>
 		<data>
-		d48IalFAPH2+BzdIyXM72uIqSeM=
+		/KnAlbzoiuVfcfcEg3oroQvHx20=
 		</data>
 		<key>Headers/SZDXError.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Headers/SZDXManager.h</key>
 		<data>
-		LvhZbLz2l2FeAD6qmByXreljeCc=
+		EtY47SHZDEQ1KDqMJruL2wars70=
 		</data>
 		<key>Headers/SZDXNativeAdManger.h</key>
 		<data>
-		JpdUr9avGQMCUPxAVfj0HHKPl4A=
+		tZ735gIh50JojRRRCtBj/GlcbqQ=
 		</data>
 		<key>Headers/SZDXNativeAdView.h</key>
 		<data>
@@ -30,31 +30,31 @@
 		</data>
 		<key>Headers/SZDXOpenADManger.h</key>
 		<data>
-		TkomcU6jwRoVenXH1hdWtfdHOvY=
+		1/B3/EXa6XEgPZVyaCDm6Ol6Iek=
 		</data>
 		<key>Headers/SZDXPlaqueADManger.h</key>
 		<data>
-		CGsHf1crQjS5cuo5Y4dv9kpW5wY=
+		NRBXSmcogDNAxt8CsPLXmxBx07E=
 		</data>
 		<key>Headers/SZDXRewardVideoAd.h</key>
 		<data>
-		3rR7GbLmnxKovoaGnFCiuX/iYyk=
+		DX/qqasWLumDckcLH+UceS1VVGA=
 		</data>
 		<key>Headers/SZDXSDK.h</key>
 		<data>
-		Jcm5vjB2hfPPvryh2y7GjpKZYSo=
+		bIfazvqcdM/xBR/dkLw2TFVu/sA=
 		</data>
 		<key>Headers/SZDXSDKDefines.h</key>
 		<data>
-		XxXKOd9jTBXeIzIYvUzTxTvh2Dk=
+		0fHiIApoGzhu6BV2d2/lwT4B4u0=
 		</data>
-		<key>Headers/SZDXTestViewController.h</key>
+		<key>Headers/SZDXServiceVerificationOptions.h</key>
 		<data>
-		slUbykhIv1OVkBjFo/DIIeushx4=
+		0eS/oF64WArSLZrHbt3+FFUqXaM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rvPrVFWvr74DUHheT6A7JfUSGnI=
+		fdaEzBjvbPOogOSBMP1LudKSgNQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,22 +67,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+hiNQUizp/lNgIdXeEPxHGrhnFM=
+			u2B431tx3BI4xnddLMamHOQyQkQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			N2GFChkgS/5GcWgiOd8FfdXA2vXWrlGRl6HtHk4abjk=
+			Ora4rygm6LIN+84+vD+F5/cT7B/TPPb4eKWpXV+yasU=
 			</data>
 		</dict>
-		<key>Headers/SZDXBUOpenADManger.h</key>
+		<key>Headers/SZDXBannerAdView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			d48IalFAPH2+BzdIyXM72uIqSeM=
+			/KnAlbzoiuVfcfcEg3oroQvHx20=
 			</data>
 			<key>hash2</key>
 			<data>
-			OXZRMQ5EviVIbjO6fXLdMt9Xvj8iuTEDeHAA98+pgLk=
+			uCyJQzLcxKzke+BnK3Zl4fROt5lQHEUfvL0LEksxFLU=
 			</data>
 		</dict>
 		<key>Headers/SZDXError.h</key>
@@ -100,22 +100,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LvhZbLz2l2FeAD6qmByXreljeCc=
+			EtY47SHZDEQ1KDqMJruL2wars70=
 			</data>
 			<key>hash2</key>
 			<data>
-			WDps42/Pia4i2fWXrze4lP7Rl7Xjh6n0VaKncPoIngA=
+			7DWQTL34kA1ME8VAeJgOeuA/WFExjSMRCj8hgtCC8yk=
 			</data>
 		</dict>
 		<key>Headers/SZDXNativeAdManger.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JpdUr9avGQMCUPxAVfj0HHKPl4A=
+			tZ735gIh50JojRRRCtBj/GlcbqQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			UWbzHih9TH76RN5gIDXOz9IilYKyBFvUlqxbzqWs49Q=
+			orWcL/Msiu5URv7u8Eh5oQZ5NbK0hJ6burVQ0W6+zWM=
 			</data>
 		</dict>
 		<key>Headers/SZDXNativeAdView.h</key>
@@ -133,66 +133,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TkomcU6jwRoVenXH1hdWtfdHOvY=
+			1/B3/EXa6XEgPZVyaCDm6Ol6Iek=
 			</data>
 			<key>hash2</key>
 			<data>
-			1ywsOLPgqmQ++4LR7tSV8AgSF9J+cdNQLR+kvDqOYJ0=
+			c3L9rugfpcYbCyX1QslCJ5VIaVE6GrRwJcOiWOiURFg=
 			</data>
 		</dict>
 		<key>Headers/SZDXPlaqueADManger.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CGsHf1crQjS5cuo5Y4dv9kpW5wY=
+			NRBXSmcogDNAxt8CsPLXmxBx07E=
 			</data>
 			<key>hash2</key>
 			<data>
-			bpGg8kyTkjgRu3SAv5J/OTtsrI3kFZqhmIbdk+C/Bz4=
+			yZ7IOmgDDMCh/iupYTSMxs0qZlC0GgUcoEOBNpjLKP4=
 			</data>
 		</dict>
 		<key>Headers/SZDXRewardVideoAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3rR7GbLmnxKovoaGnFCiuX/iYyk=
+			DX/qqasWLumDckcLH+UceS1VVGA=
 			</data>
 			<key>hash2</key>
 			<data>
-			00SrldexmOl1w1+4221xH4qAEB5bpvWKWPl92bF9rKk=
+			fObWaN1J3zbDNCXvG/vofI7UwAMA9ivcmIW1DfEUXLE=
 			</data>
 		</dict>
 		<key>Headers/SZDXSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Jcm5vjB2hfPPvryh2y7GjpKZYSo=
+			bIfazvqcdM/xBR/dkLw2TFVu/sA=
 			</data>
 			<key>hash2</key>
 			<data>
-			/Y0O4eRq8avi7Ty1xwD6jBEFQgW7Bk9H8HpkZKxnTmo=
+			+8bcW+sGDA82XRhwVAGF/x2KWnUFaiiJF2h6QcrOVVc=
 			</data>
 		</dict>
 		<key>Headers/SZDXSDKDefines.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XxXKOd9jTBXeIzIYvUzTxTvh2Dk=
+			0fHiIApoGzhu6BV2d2/lwT4B4u0=
 			</data>
 			<key>hash2</key>
 			<data>
-			JC031pG0dr/Q3U29w9nQ/g4JCUaaOPGa0CxEoy4sAAc=
+			3ruNicCKPG/f4YZOXtbOSUFJjpO+nw3RhFmAm3PLnX4=
 			</data>
 		</dict>
-		<key>Headers/SZDXTestViewController.h</key>
+		<key>Headers/SZDXServiceVerificationOptions.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			slUbykhIv1OVkBjFo/DIIeushx4=
+			0eS/oF64WArSLZrHbt3+FFUqXaM=
 			</data>
 			<key>hash2</key>
 			<data>
-			BxXZPzGZ5fUuS7ydBIF6Otw4/DMXtQiuVA1eWFxsgs8=
+			5Pl52EDpUXjZQXy1BYwX65gGIahYAFYh7MHr0b2EukU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

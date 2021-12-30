@@ -13,29 +13,29 @@ NS_ASSUME_NONNULL_BEGIN
 
 @optional
 /**
- * 关闭按钮
+ * 广告关闭
  */
-- (void)szdxFullScreenPlaqueAdCloseClicked;
+- (void)szdxInterstitialAdCloseed;
 
 /**
  * 广告点击
  */
-- (void)szdxFullScreenPlaqueAdClicked;
+- (void)szdxInterstitialAdClicked;
 
 /**
  * 广告物料渲染成功完成
  */
-- (void)szdxFullScreenPlaqueAdViewRenderSuccess;
+- (void)szdxInterstitialAdRenderSuccessed;
 
 /**
  * 广告物料拉取成功;
  */
-- (void)szdxFullScreenPlaqueAdDidLoad;
+- (void)szdxInterstitialAdDidLoaded;
 
 /**
  * 广告显示失败 error错误码详见SZDXError.h
  */
-- (void)szdxFullScreenPlaqueAdShowFailur:(NSError *)error;
+- (void)szdxInterstitialAdDidFailured:(NSError *)error;
 
 
 @end
@@ -51,7 +51,12 @@ NS_ASSUME_NONNULL_BEGIN
  * slotId:必填 广告位ID
  * platform:平台
  */
-+ (void)szdxinitDataFullScreenPlaqueAdShowSlotId:(NSString *)slotId PlatformName:(SZDXPlatformName)platform;
++ (void)szdxinitDataFullScreenPlaqueAdShowSlotId:(NSString *)slotId ;
+
+/**
+ * 代理
+ */
++ (void)szdxFullScreenPlaqueAdWithDelegate:(nullable id)delegate;
 
 /**
  * 拉取广告数据
@@ -61,13 +66,11 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * 渲染广告
  */
-+ (void)render;
++ (void)renderAd:(UIViewController *)rootViewController;
 
 
-/**
- * 代理
- */
-+ (void)szdxFullScreenPlaqueAdWithDelegate:(nullable id)delegate;
+/**销毁*/
++ (void)destruction;
 
 @end
 

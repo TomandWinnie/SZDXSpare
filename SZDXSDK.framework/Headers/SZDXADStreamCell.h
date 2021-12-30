@@ -12,20 +12,23 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol SZDXADStreamCellDelegate <NSObject>
 
-@required
-/** adcount>0则有广告物料数据**/
-- (void)szdxNativeExpressAdIsAdValid:(NSInteger)adcount;
-
-@optional
 /**
- * 点击广告事件
+ * 广告加载完成
  */
-- (void)szdxNativeExpressAdClicked;
-
+- (void)szdxNativeExpressAdDidLoaded;
 /**
  * 无广告数据|广告数据请求失败|展示失败
  */
 - (void)szdxNativeExpressAdFailure:(NSError *)error;
+/**
+ * 点击广告
+ */
+- (void)szdxNativeExpressAdClicked;
+/**
+ * 广告渲染成功
+ */
+- (void)szdxNativeExpressAdViewRenderSuccess;
+
 
 @end
 
@@ -35,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * 在需要信息流广告的地方先请求完数据之后在初始化
  */
-+ (void)szdxNativeExpressAdLoadSlotId:(NSString *)slotID PlatformName:(SZDXPlatformName)platform;
++ (void)szdxNativeExpressAdLoadSlotId:(NSString *)slotId;
 
 
 /**
@@ -45,15 +48,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /**
- * 获取广告物料
+ * 获取广告物料 
  */
-+ (void)loadAdData;
++ (BOOL)loadAdData;
 
 
 /**
- * 显示广告
+ * 渲染广告内容
  */
-- (void)szdxNativeExpressAdShowAdStreamIndexPath:(NSIndexPath *)indexPath withTableView:(UITableView *)tabeView;
+- (void)szdxNativeExpressRenderAdContent:(NSIndexPath *)indexPath withTableView:(UITableView *)tabeView;
 
 /**
  * 广告模板的高度，根据填充内容自适应的高度
@@ -65,10 +68,9 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void)szdxNativeExpressAdReload;
 
-/**
- * 用于判断当前广告是否正在显示
- */
-+ (void)szdxNativeExpressAdScrollViewDidScroll:(UIScrollView *)scrollView;
+
+/**销毁*/
++ (void)destruction;
 
 
 @end

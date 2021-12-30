@@ -30,7 +30,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SZDXNativeAdManger : NSObject
 
-
 /**
  * 初始化
  * slotId 广告位ID

@@ -21,10 +21,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (NSString *)szdxSdkVersion;
 
-/**
- * Appid
- */
-+ (void)setSZDXAppId:(NSString *)appId;
+
+/// 初始化APPID
+/// @param appId APPID
+/// @param handler 初始化状态
++ (void)setSZDXAppId:(NSString *)appId withAsyncCompletionHandler:(void (^)(BOOL, NSError * _Nonnull))handler;
 
 /**
  * YES 开启定位 默认NO
